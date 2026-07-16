@@ -1,0 +1,103 @@
+{
+  "users": [
+    {
+      "id": "admin-123",
+      "email": "admin@smarthire.ai",
+      "name": "Admin User",
+      "role": "Admin",
+      "createdAt": "2026-07-16T07:03:05.980Z",
+      "headline": "Lead Technical Recruiter @ SmartHire AI",
+      "bio": "Helping candidates find their dream jobs through automated and intelligent feedback systems.",
+      "passwordHash": "5f953870f11543d00a54636a8baabc37de9a5811ad4781c6691daf9b72e7aac2218205d791c65893ff3af279cae33ea748b62254c5e3b567e4f84b8f915bcc68",
+      "salt": "0faec2bb8209a9bbb51bef6f20e0ba66"
+    },
+    {
+      "id": "demo-user",
+      "email": "demo@smarthire.ai",
+      "name": "Jane Doe",
+      "role": "User",
+      "createdAt": "2026-07-16T07:03:05.981Z",
+      "headline": "Software Engineering Graduate",
+      "bio": "Passionate full-stack developer looking to transition from college projects to enterprise systems.",
+      "targetRole": "Full Stack Engineer",
+      "targetIndustry": "Technology",
+      "passwordHash": "676fe0825e1a790447c4a726c2325996336cdc004df945c4a4598098cc21b68dd63cbc0060fe9b69e3a35811eac418c57e7c66dde35ec4ee308b9c107eac4b0a",
+      "salt": "55cc941143d391dc28195efc0302c29a"
+    }
+  ],
+  "resumes": [
+    {
+      "id": "resume-demo",
+      "userId": "demo-user",
+      "fileName": "Jane_Doe_Software_Engineer.pdf",
+      "fileType": "application/pdf",
+      "uploadDate": "2026-07-16T07:03:05.981Z",
+      "parsedText": "Jane Doe\njane.doe@email.com | (555) 123-4567 | San Francisco, CA\ngithub.com/janedoe | linkedin.com/in/janedoe\n\nPROFESSIONAL SUMMARY\nHighly motivated Software Engineering graduate with internship experience building responsive web applications and REST APIs. Proficient in React, JavaScript, Node.js, and Express. Active contributor to open-source and passionate about developing scalable SaaS products.\n\nEDUCATION\nUniversity of California, Berkeley - B.S. in Computer Science\nGraduation: May 2026\n\nTECHNICAL SKILLS\nLanguages: JavaScript, TypeScript, Python, SQL, HTML, CSS\nFrameworks & Libraries: React, Node.js, Express, Tailwind CSS, Bootstrap\nDatabases & Tools: PostgreSQL, Git, Docker, RESTful APIs\n\nEXPERIENCE\nSoftware Engineer Intern | TechCorp Inc. | May 2025 - Aug 2025\n- Designed and built a dynamic customer analytics dashboard using React and Tailwind CSS, improving page load speeds by 25%.\n- Developed clean backend API routes in Node.js and Express to handle user session tracking and transaction histories.\n- Written test suites with Jest and achieved a 90% code coverage threshold.\n\nPersonal Project: TaskManager Pro | Sep 2025 - Dec 2025\n- Developed a full-stack project management application with React, Express, and PostgreSQL.\n- Implemented JWT authentication and real-time task progress tracking using Socket.io.\n- Containerized the application using Docker, facilitating consistent deployment pipelines.",
+      "sizeBytes": 125430,
+      "version": 1
+    }
+  ],
+  "jobDescriptions": [
+    {
+      "id": "jd-demo",
+      "userId": "demo-user",
+      "companyName": "Stripe",
+      "jobTitle": "Frontend Engineer, Dashboard",
+      "rawText": "Stripe is looking for a Software Engineer to join our Dashboard Foundations team. In this role, you will help design, build, and scale Stripe's core web application used by millions of merchants worldwide.\n\nMinimum Requirements:\n- Experience building web applications using React and TypeScript.\n- Strong proficiency in modern CSS frameworks like Tailwind CSS.\n- Understanding of web performance optimization and bundling strategies (Webpack, Vite).\n- Experience working with RESTful APIs or GraphQL.\n- High attention to detail and a passion for crafting elegant user interfaces.\n- Familiarity with CI/CD, Git, and automated testing.\n\nBonus Qualifications:\n- Experience with full-stack development using Node.js or Ruby.\n- Experience with custom chart visualization tools like D3.js or Recharts.",
+      "createdAt": "2026-07-16T07:03:05.981Z"
+    }
+  ],
+  "atsReports": [],
+  "optimizations": [],
+  "skillGaps": [],
+  "interviewSessions": [],
+  "careerRoadmaps": [],
+  "coverLetters": [],
+  "feedback": [
+    {
+      "id": "f-1",
+      "userId": "demo-user",
+      "userName": "Jane Doe",
+      "message": "The interactive mock interview with real-time grammar and accuracy feedback is mind-blowing! Absolutely love the clean bento dashboard.",
+      "rating": 5,
+      "createdAt": "2026-07-16T07:03:05.981Z"
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": "act-1",
+      "userId": "demo-user",
+      "action": "User Registered",
+      "details": "Account created with email demo@smarthire.ai",
+      "timestamp": "2026-07-16T07:03:05.981Z"
+    },
+    {
+      "id": "act-3a5873bee239336c",
+      "userId": "demo-user",
+      "action": "User Login",
+      "details": "Logged in successfully from 127.0.0.1",
+      "timestamp": "2026-07-16T07:03:44.062Z"
+    },
+    {
+      "id": "act-33ce4529ff59f25a",
+      "userId": "admin-123",
+      "action": "User Login",
+      "details": "Logged in successfully from 127.0.0.1",
+      "timestamp": "2026-07-16T07:04:25.867Z"
+    },
+    {
+      "id": "act-c7d02ca1e259f7c4",
+      "userId": "demo-user",
+      "action": "User Login",
+      "details": "Logged in successfully from 127.0.0.1",
+      "timestamp": "2026-07-16T07:06:58.742Z"
+    },
+    {
+      "id": "act-6a3b48421559382d",
+      "userId": "demo-user",
+      "action": "User Login",
+      "details": "Logged in successfully from 127.0.0.1",
+      "timestamp": "2026-07-16T07:07:32.117Z"
+    }
+  ]
+}

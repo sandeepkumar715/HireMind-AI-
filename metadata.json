@@ -1,0 +1,6 @@
+{
+  "name": "SmartHire AI",
+  "description": "An AI-powered resume analyzer, ATS scoring engine, and interactive interview coach to help you land your dream job.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
